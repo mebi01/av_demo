@@ -20,6 +20,7 @@ public class CurveControl : MonoBehaviour
     // Update is called once per frame
     void OnTriggerEnter(Collider other)
     {
+    
         if (myCar.GetComponent<AICar_Script>().enabled == true)
         {
             if (other.gameObject.tag == "Player") ;
